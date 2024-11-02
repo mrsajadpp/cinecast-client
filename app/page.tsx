@@ -19,7 +19,7 @@ export default async function App() {
       </div>
       <div className="marquee">
         <Marquee direction="left" pauseOnHover>
-          Effortlessly generate engaging paragraphs, streamline text summarization, create detailed descriptions, and enhance your content with our AI-driven solutions. Join us today and elevate your content creation experience!
+          &nbsp;Effortlessly generate engaging paragraphs, streamline text summarization, create detailed descriptions, and enhance your content with our AI-driven solutions. Join us today and elevate your content creation experience!
         </Marquee>
       </div>
     </>

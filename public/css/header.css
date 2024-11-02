@@ -48,7 +48,8 @@ header .left .logo {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-left: 10px;
+    padding-left: 10px;
+    border-bottom: solid 1px #ccc;
 }
 
 header .left .logo a {
@@ -60,4 +61,55 @@ header .left .logo a {
 header .left .logo img {
     width: 120px;
     margin-top: -2px;
+}
+
+header .left .menuBar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom: solid 1px #ccc;
+}
+
+header .left .menuBar nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    background: #fff;
+}
+
+header .left .menuBar nav a {
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    border-left: solid 1px #ccc;
+    font-size: 18px;
+}
+
+
+/* Styles for screens larger than tablet width (≥768px) */
+@media (min-width: 768px) {
+    header .left .menuIcon {
+        display: none;
+    }
+
+    header .left .logo {
+        margin-left: 0px;
+        padding-left: 10px;
+        width: 50%;
+    }
+}
+
+/* Styles for screens smaller than tablet width (<768px) */
+@media (max-width: 767px) {
+    header .left .menuBar {
+        display: none;
+    }
 }

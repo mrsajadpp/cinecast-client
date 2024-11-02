@@ -4,7 +4,7 @@ import '@/public/css/header.css'
 export default function Header() {
     return (
         <>
-            {/* Mobile Header */}
+            {/* Header */}
             <header>
                 <div className="left">
                     <div className="menuIcon">
@@ -16,6 +16,14 @@ export default function Header() {
                         <Link href="/">
                             <img src="/logo/white-text-logo.png" alt="CineCast" />
                         </Link>
+                    </div>
+                    <div className="menuBar">
+                        <nav>
+                            <Link href="/">Home</Link>
+                            <Link href="/tools">Tools</Link>
+                            <Link href="/pricing">Pricing</Link>
+                            <Link href="/donate">Donate</Link>
+                        </nav>
                     </div>
                 </div>
             </header>

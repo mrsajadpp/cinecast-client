@@ -2,6 +2,7 @@ import "@fontsource/poppins";
 import Script from 'next/script';
 import Image from 'next/image';
 import '@/public/css/index.css';
+import Marquee from "react-fast-marquee";
 
 export const metadata = {
   title: "AI Content Generation Platform",
@@ -17,9 +18,9 @@ export default async function App() {
         <button className="btn">Get Started</button>
       </div>
       <div className="marquee">
-        <marquee behavior="scroll" direction="left" loop>
+        <Marquee direction="left" pauseOnHover>
           Effortlessly generate engaging paragraphs, streamline text summarization, create detailed descriptions, and enhance your content with our AI-driven solutions. Join us today and elevate your content creation experience!
-        </marquee>
+        </Marquee>
       </div>
     </>
   );

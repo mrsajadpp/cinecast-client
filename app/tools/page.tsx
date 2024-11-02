@@ -15,7 +15,7 @@ export default async function App() {
         <>
             <div className="main">
                 <div className="button-container">
-                    <Link className="grid-button" href="">
+                    <Link className="grid-button" href="/tools/text-summarizer/">
                         <button>Text Summarizer</button>
                     </Link>
                     <Link className="grid-button" href="">

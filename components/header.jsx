@@ -1,5 +1,6 @@
 import Link from "next/link";
-import '@/public/css/header.css'
+import '@/public/css/header.css';
+import Script from "next/script";
 
 export default function Header() {
     return (
@@ -8,7 +9,7 @@ export default function Header() {
             <header>
                 <div className="left">
                     <div className="menuIcon">
-                        <button>
+                        <button id="menuIcon">
                             <i className="fi fi-ss-menu-burger"></i>
                         </button>
                     </div>
@@ -27,6 +28,16 @@ export default function Header() {
                     </div>
                 </div>
             </header>
+            {/* Mobile Menu */}
+            <div className="mobileMenu hidden" id="menuBar">
+                <nav>
+                    <Link href="/">Home</Link>
+                    <Link href="/tools">Tools</Link>
+                    <Link href="/pricing">Pricing</Link>
+                    <Link href="/donate">Donate</Link>
+                </nav>
+            </div>
+            <Script src="/js/script.js" />
         </>
     );
 }

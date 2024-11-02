@@ -67,3 +67,83 @@
      justify-content: center;
      border-top: solid 1px #000;
  }
+
+ .contact {
+     width: 100vw;
+     border-top: solid 1px #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .contact form {
+     display: flex;
+     flex-direction: column;
+     width: 80%;
+ }
+
+ .contact form .row {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 10px;
+ }
+
+ .contact form .row h2 {
+     font-size: 23px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 100%;
+     text-align: center;
+ }
+
+ .contact form .row .inputBox {
+     width: 100%;
+     height: 50px;
+     background: #00c7fe;
+     overflow: hidden;
+     border: solid 1px #000;
+ }
+
+ .contact form .row .messageBox {
+     height: 90px;
+ }
+
+ .contact form .row .inputBox input,
+ .contact form .row .inputBox textarea {
+     width: 100%;
+     height: 100%;
+     outline: none;
+     border: none;
+ }
+
+ .contact form .row .inputBox input {
+     padding-left: 10px;
+ }
+
+ .contact form .row .inputBox textarea {
+     padding-left: 10px;
+     padding-top: 10px;
+ }
+
+ .contact form .row .inputBox label {
+     position: absolute;
+     margin-top: -8px;
+     margin-left: 5px;
+     background: #fff;
+ }
+
+ .contact form .row .inputBox button {
+     width: 100%;
+     height: 100%;
+     background: transparent;
+     color: #000;
+     font-size: 1rem;
+     border: none;
+     transition: background ease-in-out 0.3s;
+ }
+
+ .contact form .row .inputBox button:hover {
+     background: #eaff00;
+ }

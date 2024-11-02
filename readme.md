@@ -1,63 +1,36 @@
-# Project Documentation
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Overview
+## Getting Started
 
-Welcome to the documentation for our Node.js project. This project includes various functionalities and features for managing articles, users, admin operations, image handling, and authentication.
-
-## Project Setup
-
-To get started with the project, follow these steps:
-
-### 1. Installation
-
-First, ensure that you have Node.js and npm installed. If not, please install them from [Node.js official website](https://nodejs.org/).
-
-Install the project dependencies using npm:
+First, run the development server:
 
 ```bash
-npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### 2. Running the Project
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Start the project with:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```bash
-npm start
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-The application will run on the default port specified in your configuration.
+## Learn More
 
-## Documentation
+To learn more about Next.js, take a look at the following resources:
 
-This project has comprehensive documentation that covers different aspects of its functionality. Each section of the documentation is organized into separate files, which are linked below.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Article Management
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- **[Article Documentation](./doc/article.md)**: Detailed information on managing articles, including endpoints and their usage.
+## Deploy on Vercel
 
-### User Management
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **[User Documentation](./doc/user.md)**: Information on user-related operations, such as fetching user profiles and updating user details.
-
-### Admin Operations
-
-- **[Admin Documentation](./doc/admin.md)**: Guidelines for administrative tasks and operations, including managing user roles and permissions.
-
-### Image Handling
-
-- **[Image Documentation](./doc/image.md)**: Details on how to manage and handle profile images, including uploading and fetching images.
-
-### Authentication
-
-- **[Authentication Documentation](./doc/auth.md)**: Overview of authentication mechanisms, including login, token management, and securing endpoints.
-
-## Contribution
-
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
-
-[doc/ubuntu-24.04-x86_64/mongodb_install](./doc/ubuntu-24.04-x86_64/mongodb_install)
-
-## Contact
-
-For any questions or issues, please contact us at [support@grovixlab.com](mailto:support@grovixlab.com).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

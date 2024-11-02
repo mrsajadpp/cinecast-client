@@ -36,6 +36,11 @@ header .left .menuIcon button {
     background: #fff;
     border: none;
     border-right: solid 1px #000;
+    transition: background ease-in-out 0.3s;
+}
+
+header .left .menuIcon button:hover {
+    background: #eaff00;
 }
 
 header .left .menuIcon button i {

@@ -9,7 +9,7 @@ export default function Header() {
                 <div className="left">
                     <div className="menuIcon">
                         <button>
-                            <i class="fi fi-ss-menu-burger"></i>
+                            <i className="fi fi-ss-menu-burger"></i>
                         </button>
                     </div>
                     <div className="logo">

@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Image from 'next/image';
 import '@/public/css/index.css';
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 export const metadata = {
   title: "AI Content Generation Platform",
@@ -15,7 +16,9 @@ export default async function App() {
       <div className="container">
         <h1 className="h1">AI-Powered Content Creation</h1>
         <p className="p">Cinecast empowers creators with AI-driven content generation. Effortlessly craft compelling descriptions, summaries, and more—all in one place. Unlock your creativity with Cinecast.</p>
-        <button className="btn">Get Started</button>
+        <Link href="/tools">
+          <button className="btn">Get Started</button>
+        </Link>
       </div>
       <div className="marquee">
         <Marquee direction="left" pauseOnHover>

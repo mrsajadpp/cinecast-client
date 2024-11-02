@@ -29,6 +29,10 @@ header .left .menuIcon button {
     border: none;
     background: transparent;
     outline: none;
+    background: #fff;
+    border: none;
+    border-left: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
 }
 
 header .left .menuIcon button i {
@@ -44,6 +48,7 @@ header .left .logo {
     display: flex;
     align-items: center;
     justify-content: start;
+    margin-left: 10px;
 }
 
 header .left .logo a {

@@ -79,6 +79,8 @@
  .contact form {
      display: flex;
      flex-direction: column;
+     max-width: 360px;
+     min-width: 250px;
      width: 80%;
  }
 

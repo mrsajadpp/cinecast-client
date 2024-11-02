@@ -8,6 +8,7 @@ header {
     top: 0px;
     overflow: hidden;
     border-bottom: solid 1px #000;
+    z-index: 999;
 }
 
 header .left {

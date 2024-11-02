@@ -15,7 +15,7 @@ export default function Footer() {
 
                 {/* Copyright */}
                 <p className="footer-copyright">
-                    &copy; {new Date().getFullYear()} Cinecast. All rights reserved.
+                    &copy; {new Date().getFullYear()} Grovix lab. All rights reserved.
                 </p>
             </div>
         </footer>

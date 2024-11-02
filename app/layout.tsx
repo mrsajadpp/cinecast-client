@@ -1,3 +1,7 @@
+import '@/public/css/global.css';
+import '@/public/css/header.css';
+import Header from '@/components/header';
+
 export default function RootLayout({
   children,
 }: {
@@ -14,6 +18,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
+        <Header />
         {children}
       </body>
     </html>

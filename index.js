@@ -60,4 +60,4 @@ app.use('/api/admin/', require('./route/admin'));
 
 app.listen(PORT, connectDB(), () => {
     console.log(`🚀 Listening at http://127.0.0.1:${PORT}/`);
-});
+}); 

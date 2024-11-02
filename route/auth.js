@@ -36,6 +36,7 @@ router.post('/register', async (req, res) => {
       password,
       date_of_birth
     } = req.body;
+    
 
     if (!first_name) {
       return res.status(400).json({ error: 'First name is required' });

@@ -16,6 +16,11 @@ export default async function App() {
         <p className="p">Cinecast empowers creators with AI-driven content generation. Effortlessly craft compelling descriptions, summaries, and more—all in one place. Unlock your creativity with Cinecast.</p>
         <button className="btn">Get Started</button>
       </div>
+      <div className="marquee">
+        <marquee behavior="scroll" direction="left" loop>
+          Effortlessly generate engaging paragraphs, streamline text summarization, create detailed descriptions, and enhance your content with our AI-driven solutions. Join us today and elevate your content creation experience!
+        </marquee>
+      </div>
     </>
   );
 }

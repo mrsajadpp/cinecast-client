@@ -57,3 +57,13 @@
  .btn:hover {
      background-color: #00c7fe;
  }
+
+ .marquee {
+     width: 100vw;
+     height: 40px;
+     background: #00c7fe;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-top: solid 1px #000;
+ }

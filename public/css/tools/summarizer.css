@@ -1,0 +1,118 @@
+/* Container Styling */
+.summarizer-container {
+    max-width: 600px;
+    /* Maximum width for the container */
+    margin: 2rem auto;
+    /* Center the container */
+    padding: 1.5rem;
+    /* Padding inside the container */
+    background-color: #fff;
+    /* Background color for the container */
+    border-radius: 8px;
+    /* Rounded corners */
+    text-align: center;
+    /* Center text */
+    margin-top: 61px;
+}
+
+/* Title Styling */
+.summarizer-title {
+    margin-bottom: 1rem;
+    color: #333;
+    /* Text color for the title */
+    font-size: 1.5rem;
+    /* Font size for the title */
+}
+
+/* Textarea Styling */
+.summarizer-input {
+    width: 90%;
+    /* Full width */
+    padding: 0.75rem;
+    /* Padding inside the textarea */
+    border: 1px solid #ccc;
+    /* Border color */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 1rem;
+    /* Font size */
+    margin-bottom: 1rem;
+    /* Spacing below textarea */
+    resize: none;
+    /* Prevent resizing */
+    transition: border-color 0.3s ease;
+    /* Transition for border color */
+}
+
+.summarizer-input:focus {
+    border-color: #00c7fe;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove outline */
+}
+
+/* Button Styling */
+.summarizer-btn {
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #00c7fe;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.summarizer-btn:hover {
+    background-color: #eaff00;
+    /* Darker shade on hover */
+}
+
+/* Summary Title Styling */
+.summarizer-summary-title {
+    margin-top: 1.5rem;
+    /* Spacing above the summary title */
+    color: #333;
+    /* Text color for the summary title */
+    font-size: 1.2rem;
+    /* Font size for the summary title */
+}
+
+/* Summary Output Styling */
+.summarizer-output {
+    margin-top: 0.5rem;
+    /* Spacing above the output area */
+    padding: 1rem;
+    /* Padding inside the output area */
+    border: 1px solid #ccc;
+    /* Border color for output area */
+    border-radius: 4px;
+    /* Rounded corners */
+    background-color: #f9f9f9;
+    /* Light background for output */
+    min-height: 50px;
+    /* Minimum height for output area */
+    color: #333;
+    /* Text color */
+    text-align: left;
+    /* Align text to the left */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .summarizer-title {
+        font-size: 1.25rem;
+        /* Smaller font size for title on mobile */
+    }
+
+    .summarizer-input,
+    .summarizer-btn {
+        font-size: 0.9rem;
+        /* Smaller font size for mobile */
+    }
+
+    .summarizer-summary-title {
+        font-size: 1rem;
+        /* Smaller font size for summary title on mobile */
+    }
+}

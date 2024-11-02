@@ -14,7 +14,7 @@ export default function Header() {
                     </div>
                     <div className="logo">
                         <Link href="/">
-                            <img src="/logo/white-text-logo.png" alt="CineCast" />
+                            <img src="/logo/black-text-logo.png" alt="CineCast" />
                         </Link>
                     </div>
                     <div className="menuBar">

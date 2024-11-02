@@ -10,6 +10,9 @@ export const metadata = {
 export default async function App() {
   return (
     <>
+      <div className="container">
+
+      </div>
     </>
   );
 }

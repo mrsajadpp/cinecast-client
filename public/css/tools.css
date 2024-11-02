@@ -1,0 +1,47 @@
+/* Container Styling */
+.button-container {
+    margin-top: 61px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    /* Spacing between buttons */
+    padding: 2rem;
+    max-width: 800px;
+    /* Center the container */
+    background-color: #fff;
+    /* Background color for the container */
+    border-radius: 8px;
+}
+
+/* Button Styling */
+.grid-button {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #00c7fe;
+    /* Change to your preferred color */
+    border: solid 1px #000;
+    /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.grid-button button {
+    background: transparent;
+    border: none;
+}
+
+/* Button Hover Effect */
+.grid-button:hover {
+    background-color: #eaff00;
+    /* Darker shade for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-button {
+        font-size: 0.9rem;
+        /* Smaller font size for mobile */
+    }
+}

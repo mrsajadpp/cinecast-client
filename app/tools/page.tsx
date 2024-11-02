@@ -1,0 +1,36 @@
+import "@fontsource/poppins";
+import Script from 'next/script';
+import Image from 'next/image';
+import '@/public/css/tools.css';
+import Marquee from "react-fast-marquee";
+import Link from "next/link";
+
+export const metadata = {
+    title: "AI Content Generation Tools",
+    description: "The leading AI content generation tools that simplifies paragraph creation, text summarization, and description generation. Enhance your writing efficiency and produce high-quality content with ease."
+};
+
+export default async function App() {
+    return (
+        <>
+            <div className="main">
+                <div className="button-container">
+                    <Link className="grid-button" href="">
+                        <button>Text Summarizer</button>
+                    </Link>
+                    <Link className="grid-button" href="">
+                        <button>Paragraph Gen</button>
+                    </Link>
+                    <Link className="grid-button" href="">
+                        <button>Title Gen</button>
+                    </Link>
+                    <Link className="grid-button" href="">
+                        <button>Caption Gen</button>
+                    </Link>
+                </div>
+            </div>
+
+            <br /><br />
+        </>
+    );
+}

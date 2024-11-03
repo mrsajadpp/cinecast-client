@@ -19,7 +19,7 @@ export default async function App() {
                         <img src="/icons/graphics/pencil.png" alt="Text Summarizer" />
                         <button>Text Summarizer</button>
                     </Link>
-                    <Link className="grid-button" href="">
+                    <Link className="grid-button" href="/tools/paragraph-generator/">
                         <img src="/icons/graphics/cirtificate.png" alt="Paragraph Gen" />
                         <button>Paragraph Gen</button>
                     </Link>

@@ -25,7 +25,7 @@ export default async function App() {
 
                     <img src="/donate.png" alt="Bitcoin QR Code" className="qr-code" />
 
-                    <p className="bitcoin-address">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</p>
+                    <p className="bitcoin-address">1AqQFtHqT2sDEAPiRnLPdoTANeGpL4GFKq</p>
 
                     <a href="https://www.patreon.com/" target="_blank" className="donate-button patreon-btn">Support on Patreon</a>
                     <a href="https://www.buymeacoffee.com/" target="_blank" className="donate-button coffee-btn">Buy Me a Coffee</a>

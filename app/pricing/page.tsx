@@ -28,7 +28,9 @@ export default async function App() {
                         <li>Basic usage analytics</li>
                     </ul>
                     <p className="plan-price">₹0/month</p>
-                    <button className="purchase-button">Start Free Trial</button>
+                    <Link href="https://forms.gle/eHXZe95uksKz92DJA">
+                        <button className="purchase-button">Start Free Trial</button>
+                    </Link>
                 </div>
 
                 {/* Starter Plan */}
@@ -42,7 +44,9 @@ export default async function App() {
                         <li>Basic usage analytics</li>
                     </ul>
                     <p className="plan-price">₹499/month</p>
-                    <button className="purchase-button">Purchase</button>
+                    <Link href="https://forms.gle/UBuuvWcWmda5g6Zn7">
+                        <button className="purchase-button">Purchase</button>
+                    </Link>
                 </div>
 
                 {/* Pro Plan */}
@@ -57,7 +61,9 @@ export default async function App() {
                         <li>Detailed usage analytics</li>
                     </ul>
                     <p className="plan-price">₹1,999/month</p>
-                    <button className="purchase-button">Purchase</button>
+                    <Link href="https://forms.gle/wMJYaTKiwzGP5p3x7">
+                        <button className="purchase-button">Purchase</button>
+                    </Link>
                 </div>
 
                 {/* Enterprise Plan */}
@@ -72,7 +78,9 @@ export default async function App() {
                         <li>Advanced usage analytics</li>
                     </ul>
                     <p className="plan-price">₹6,999/month</p>
-                    <button className="purchase-button">Purchase</button>
+                    <Link href="https://forms.gle/PCb2HrM6D1ofNe7Q6">
+                        <button className="purchase-button">Purchase</button>
+                    </Link>
                 </div>
             </div>
             <br /><br />

@@ -1,0 +1,73 @@
+/* Main container styling */
+.donate-container {
+    margin-top: 100px;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Bitcoin QR code styling */
+.qr-code {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+}
+
+/* Bitcoin address styling */
+.bitcoin-address {
+    font-size: 1rem;
+    color: #333;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.donate-button {
+    display: flex;
+    width: 230px;
+    height: 30px;
+    margin: 10px;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 1px #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.patreon-btn {
+    background-color: #f96854;
+}
+
+.coffee-btn {
+    background-color: #ffdd00;
+    color: #333;
+}
+
+/* Hover effects */
+.donate-button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .donate-container {
+        padding: 10px;
+    }
+
+    .donate-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .bitcoin-address {
+        font-size: 0.9rem;
+    }
+}

@@ -13,7 +13,7 @@ export const metadata = {
 export default async function App() {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{ minHeight: "70vh", display: 'flex', flexDirection: 'column', justifyContent: "center" }}>
         <h1 className="h1">AI-Powered Content Creation</h1>
         <p className="p">Cinecast empowers creators with AI-driven content generation. Effortlessly craft compelling descriptions, summaries, and more—all in one place. Unlock your creativity with Cinecast.</p>
         <Link href="/tools">
@@ -25,7 +25,7 @@ export default async function App() {
           &nbsp;Effortlessly generate engaging paragraphs, streamline text summarization, create detailed descriptions, and enhance your content with our AI-driven solutions. Join us today and elevate your content creation experience!
         </Marquee>
       </div>
-      <div className="contact">
+      {/* <div className="contact">
         <form>
           <div className="row">
             <h2>Contact Us</h2>
@@ -59,8 +59,8 @@ export default async function App() {
             </div>
           </div>
         </form>
-      </div>
-      <br /><br />
+      </div> */}
+      {/* <br /><br /> */}
     </>
   );
 }

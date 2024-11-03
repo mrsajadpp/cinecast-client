@@ -15,6 +15,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1,
         },
         {
+            url: 'https://www.cinecast.xyz/pricing',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
+        {
+            url: 'https://www.cinecast.xyz/donate',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
+        {
             url: 'https://www.cinecast.xyz/tools/text-summarizer',
             lastModified: new Date(),
             changeFrequency: 'daily',

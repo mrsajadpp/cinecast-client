@@ -18,18 +18,29 @@
     padding: 1rem;
     font-size: 1rem;
     color: #000;
-    background-color: #00c7fe;
+    background-color: #fff;
     /* Change to your preferred color */
     border: solid 1px #000;
     /* Rounded corners */
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.grid-button img {
+    width: 40px;
 }
 
 .grid-button button {
     background: transparent;
     border: none;
+    width: calc(100%-40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Button Hover Effect */

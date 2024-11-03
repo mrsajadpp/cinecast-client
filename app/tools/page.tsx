@@ -16,15 +16,19 @@ export default async function App() {
             <div className="main">
                 <div className="button-container">
                     <Link className="grid-button" href="/tools/text-summarizer/">
+                        <img src="/icons/graphics/pencil.png" alt="" />
                         <button>Text Summarizer</button>
                     </Link>
                     <Link className="grid-button" href="">
+                        <img src="/icons/graphics/cirtificate.png" alt="" />
                         <button>Paragraph Gen</button>
                     </Link>
                     <Link className="grid-button" href="">
+                        <img src="/icons/graphics/marker.png" alt="" />
                         <button>Title Gen</button>
                     </Link>
                     <Link className="grid-button" href="">
+                        <img src="/icons/graphics/abc.png" alt="" />
                         <button>Caption Gen</button>
                     </Link>
                 </div>

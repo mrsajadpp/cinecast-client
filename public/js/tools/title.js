@@ -35,9 +35,8 @@ document.getElementById("generate-button").addEventListener("click", async () =>
         // Parse the response
         const data = await response.json();
         if (data.response) {
-            var converter = new Showdown.converter()
-            var html = converter.makeHtml(data.response); 
-            resultArea.textContent = html;
+            const htmlOutput = marked(data.response);
+            resultArea.innerHTML = htmlOutput;
         } else {
             resultArea.textContent = "Unexpected response format. Please try again later.";
         }

@@ -88,10 +88,10 @@ export default async function App() {
                     <h3>Explore More Tools</h3>
                     <p>
                         Check out our other tools, like Text Summarizer, Invisible Character Generator, and Small Text Generator, for all your content needs.
-                    </p>
+                    </p> 
                 </div> 
             </div>
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></Script>
+            <Script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.1.3/marked.min.js"></Script>
             <Script src="/js/tools/title.js" />
         </>
     );

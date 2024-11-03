@@ -6,8 +6,8 @@ import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Support Cinecas",
-    description: "Help keep Cinecast ad-free by supporting us through donations. Your contribution allows us to provide high-quality AI content generation tools, including text summarization, story creation, and more. Join us in making creative tools accessible for everyone!",
+    title: "Choose Your Plan",
+    description: "Explore Cinecast's flexible pricing plans for AI-driven content generation. From free access to essential tools in our Basic Plan to advanced support in the Pro Plan, find the perfect option to meet your content creation needs. Join us today and support ad-free AI innovation!",
     openGraph: {
         images: ['/opengraph/image.jpg'],
     }

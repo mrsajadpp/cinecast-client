@@ -14,7 +14,6 @@ export default async function App() {
     return (
         <>
             <div className="main">
-                <h1 style={{ display: 'none' }}>Summarize Text and Paragraphs Quickly</h1>
                 <div className="summarizer-container">
                     <h2 className="summarizer-title">Text Summarizer Tool</h2>
                     <textarea className="summarizer-input" id="content" placeholder="Paste your text here..." rows={6} required></textarea>
@@ -23,7 +22,7 @@ export default async function App() {
                     <div className="summarizer-output" id="summary-result">Your summarized text will appear here...</div>
                 </div>
                 <div className="container text-summarizer-content">
-                    <h1>Text Summarizer</h1>
+                    <h1>Summarize Text and Paragraphs Quickly</h1>
                     <p>
                         Our Text Summarizer is an AI-powered tool designed to summarize long texts, paragraphs, and articles, capturing the main concepts with just one click.
                     </p>

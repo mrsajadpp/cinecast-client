@@ -7,7 +7,10 @@ import Link from "next/link";
 
 export const metadata = {
   title: "AI Content Generation Platform",
-  description: "Discover Cinecast, the leading AI content generation platform that simplifies paragraph creation, text summarization, and description generation. Enhance your writing efficiency and produce high-quality content with ease. Join us today and transform your creative process!"
+  description: "Discover Cinecast, the leading AI content generation platform that simplifies paragraph creation, text summarization, and description generation. Enhance your writing efficiency and produce high-quality content with ease. Join us today and transform your creative process!",
+  openGraph: {
+    images: ['/opengraph/image.jpg'],
+  }
 };
 
 export default async function App() {

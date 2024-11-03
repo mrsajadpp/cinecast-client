@@ -1,6 +1,6 @@
-document.getElementById("summarize-button").addEventListener("click", async () => {
+document.getElementById("generate-button").addEventListener("click", async () => {
     const content = document.getElementById("content").value;
-    const resultArea = document.getElementById("summary-result");
+    const resultArea = document.getElementById("output-result");
 
     // Check if content is empty
     if (!content) {

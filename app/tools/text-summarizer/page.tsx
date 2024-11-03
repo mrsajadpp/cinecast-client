@@ -14,6 +14,7 @@ export default async function App() {
     return (
         <>
             <div className="main">
+                <h1 style={{ display: 'none' }}>Summarize Text and Paragraphs Quickly</h1>
                 <div className="summarizer-container">
                     <h2 className="summarizer-title">Text Summarizer Tool</h2>
                     <textarea className="summarizer-input" id="content" placeholder="Paste your text here..." rows={6} required></textarea>

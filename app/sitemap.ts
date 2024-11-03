@@ -44,5 +44,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 1,
         },
+        {
+            url: 'https://www.cinecast.xyz/tools/caption-generator',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
     ]
 }

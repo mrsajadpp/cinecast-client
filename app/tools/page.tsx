@@ -28,7 +28,7 @@ export default async function App() {
                         <img src="/icons/graphics/marker.png" alt="Title Gen" />
                         <button>Title Gen</button>
                     </Link>
-                    <Link className="grid-button" href="">
+                    <Link className="grid-button" href="/tools/caption-generator/">
                         <img src="/icons/graphics/abc.png" alt="Caption Gen" />
                         <button>Caption Gen</button>
                     </Link>

@@ -18,8 +18,11 @@ export default async function App() {
         <>
             <div className="main">
                 <div className="donate-container">
-                    <img src="/donate.png
-                    " alt="Bitcoin QR Code" className="qr-code" />
+                    <p className="donate-message">
+                        To keep our website ad-free and accessible to everyone, we rely on your generous support. If you find our resources valuable, please consider making a donation. Your support keeps us going!
+                    </p>
+
+                    <img src="/donate.png" alt="Bitcoin QR Code" className="qr-code" />
 
                     <p className="bitcoin-address">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</p>
 

@@ -78,6 +78,7 @@ export default async function App() {
                 </div>
             </div>
 
+            <Script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.1.3/marked.min.js"></Script>
             <Script src="/js/tools/paragraph.js" />
         </>
     );

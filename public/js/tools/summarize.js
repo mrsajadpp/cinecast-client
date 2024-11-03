@@ -35,7 +35,8 @@ document.getElementById("summarize-button").addEventListener("click", async () =
         // Parse the response
         const data = await response.json();
         if (data.response) {
-            resultArea.textContent = data.response;
+            const htmlOutput = marked(data.response);
+            resultArea.innerHTML = htmlOutput;
         } else {
             resultArea.textContent = "Unexpected response format. Please try again later.";
         }

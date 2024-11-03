@@ -16,6 +16,13 @@ export const metadata = {
 export default async function App() {
     return (
         <>
+            <div className="main-area">
+                <h1 className="pricing-title">Cinecast Pricing Plans</h1>
+                <p className="pricing-intro">
+                    This is API pricing plan. Choose the perfect plan that fits your needs! Our pricing is designed to provide you with flexible options, whether you're just starting out with our Free Trial Plan or scaling up with our Enterprise Plan. Experience the best in AI-powered content generation at competitive rates.
+                </p>
+            </div>
+
             <div className="pricing-container">
                 {/* Free Trial Plan */}
                 <div className="pricing-card">

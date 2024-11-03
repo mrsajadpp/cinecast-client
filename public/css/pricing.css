@@ -5,7 +5,6 @@
     align-items: flex-start;
     /* Align items to the top */
     gap: 20px;
-    margin-top: 80px;
     width: 100%;
     flex-wrap: wrap;
     min-height: 70vh;
@@ -92,4 +91,36 @@
         flex: 1 1 20%;
         /* Adjust flex-basis to allow four cards per row on larger screens */
     }
+}
+
+.main-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* Main Title */
+.pricing-title {
+    width: 80%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    /* Adjust as needed */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main Paragraph */
+.pricing-intro {
+    width: 80%;
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+    /* Restrict width for better readability */
+    line-height: 1.5;
+    /* Improve readability */
 }

@@ -4,8 +4,9 @@ import Image from 'next/image';
 import '@/public/css/tools/summarizer.css';
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
+import type { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Summarize Text and Paragraphs Quickly",
     description: "Quickly generate concise summaries for paragraphs, articles, and documents. Enhance your productivity with this easy-to-use summarization tool."
 };
@@ -54,7 +55,7 @@ export default async function App() {
                     <h3>Features</h3>
                     <p>
                         <strong>Accurate Summarization:</strong> Our tool provides precise summaries without changing the meaning of the original text.
-                        <br/><strong>Copy & Download:</strong> Quickly copy the summarized text or download it as a doc file.
+                        <br /><strong>Copy & Download:</strong> Quickly copy the summarized text or download it as a doc file.
                     </p>
 
                     <h3>Benefits of Using an Online Text Summarizer</h3>

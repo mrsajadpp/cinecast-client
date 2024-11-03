@@ -112,3 +112,63 @@
         /* Smaller font size for summary title on mobile */
     }
 }
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.text-summarizer-content h1,
+.text-summarizer-content h2,
+.text-summarizer-content h3 {
+    color: #00c7fe;
+}
+
+.text-summarizer-content p,
+.text-summarizer-content ul,
+.text-summarizer-content ol {
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.text-summarizer-content ul {
+    list-style-type: square;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    line-height: 1.6;
+}
+
+.text-summarizer-content ol,
+.text-summarizer-content ul {
+    margin-left: 2rem;
+}
+
+/* .text-summarizer-content ul li::before {
+    content: "• ";
+    color: #00c7fe;
+    font-weight: bold;
+} */
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .text-summarizer-content h1 {
+        font-size: 1.5em;
+    }
+
+    .text-summarizer-content h2 {
+        font-size: 1.25em;
+    }
+}

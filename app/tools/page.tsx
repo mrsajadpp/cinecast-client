@@ -4,6 +4,7 @@ import Image from 'next/image';
 import '@/public/css/tools.css';
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
+import ReactMarkdown from 'react-markdown'; 
 
 export const metadata = {
     title: "AI Content Generation Tools",
@@ -23,7 +24,7 @@ export default async function App() {
                         <img src="/icons/graphics/cirtificate.png" alt="Paragraph Gen" />
                         <button>Paragraph Gen</button>
                     </Link>
-                    <Link className="grid-button" href="">
+                    <Link className="grid-button" href="/tools/title-generator/">
                         <img src="/icons/graphics/marker.png" alt="Title Gen" />
                         <button>Title Gen</button>
                     </Link>

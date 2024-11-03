@@ -6,12 +6,13 @@ import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
 export const metadata = {
-    title: "AI Content Generation Platform",
-    description: "Discover Cinecast, the leading AI content generation platform that simplifies paragraph creation, text summarization, and description generation. Enhance your writing efficiency and produce high-quality content with ease. Join us today and transform your creative process!",
+    title: "Support Cinecas",
+    description: "Help keep Cinecast ad-free by supporting us through donations. Your contribution allows us to provide high-quality AI content generation tools, including text summarization, story creation, and more. Join us in making creative tools accessible for everyone!",
     openGraph: {
         images: ['/opengraph/image.jpg'],
     }
 };
+
 
 export default async function App() {
     return (

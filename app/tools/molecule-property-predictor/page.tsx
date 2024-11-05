@@ -24,7 +24,7 @@ export default async function MoleculePropertyPredictor() {
                     <button className="generator-btn" id="generate-button">
                         Predict Properties
                     </button>
-                    <h3 className="generator-output-title">Predicted Products:</h3>
+                    <h3 className="generator-output-title">Predicted Properties:</h3>
                     <div className="generator-output" id="output-result">
                         The properties of the molecule will appear here... The products of your reaction will appear here...
                     </div>

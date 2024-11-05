@@ -44,7 +44,7 @@ export default async function App() {
                         <img src="/icons/graphics/molecule.png" alt="Paragraph Gen" />
                         <button>Molecule Property Predictor</button>
                     </Link>
-                    <Link className="grid-button" href="/tools/title-generator/">
+                    <Link className="grid-button" href="/tools/environmental-impact-analyzer/">
                         <img src="/icons/graphics/glass.png" alt="Title Gen" />
                         <button>Environmental Impact Analyzer</button>
                     </Link>

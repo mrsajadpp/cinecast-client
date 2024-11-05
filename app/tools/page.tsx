@@ -48,7 +48,7 @@ export default async function App() {
                         <img src="/icons/graphics/glass.png" alt="Title Gen" />
                         <button>Environmental Impact Analyzer</button>
                     </Link>
-                    <Link className="grid-button" href="/tools/caption-generator/">
+                    <Link className="grid-button" href="/tools/compound-compatibility-checker/">
                         <img src="/icons/graphics/reaction.png" alt="Caption Gen" />
                         <button>Compound Compatibility Checker</button>
                     </Link>

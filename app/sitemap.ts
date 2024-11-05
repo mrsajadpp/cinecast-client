@@ -50,5 +50,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 1,
         },
+        {
+            url: 'https://www.cinecast.xyz/tools/chemical-reaction-cmopleter',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
+        {
+            url: 'https://www.cinecast.xyz/tools/molecule-property-predictor',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
+        {
+            url: 'https://www.cinecast.xyz/tools/environmental-impact-analyzer',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
+        {
+            url: 'https://www.cinecast.xyz/tools/compound-compatibility-checker',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1,
+        },
     ]
 }

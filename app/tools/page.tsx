@@ -40,7 +40,7 @@ export default async function App() {
                         <img src="/icons/graphics/atom.png" alt="Text Summarizer" />
                         <button>Chemical Reaction Completer</button>
                     </Link>
-                    <Link className="grid-button" href="/tools/paragraph-generator/">
+                    <Link className="grid-button" href="/tools/molecule-property-predictor/">
                         <img src="/icons/graphics/molecule.png" alt="Paragraph Gen" />
                         <button>Molecule Property Predictor</button>
                     </Link>

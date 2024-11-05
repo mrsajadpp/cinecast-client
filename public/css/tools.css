@@ -1,6 +1,9 @@
+.main {
+    margin-top: 80px;
+}
+
 /* Container Styling */
 .button-container {
-    margin-top: 61px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 1rem;
@@ -55,4 +58,12 @@
         font-size: 0.9rem;
         /* Smaller font size for mobile */
     }
+}
+
+/* Title Styling */
+.tools-title {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
 }

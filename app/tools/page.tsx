@@ -4,7 +4,7 @@ import Image from 'next/image';
 import '@/public/css/tools.css';
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
-import ReactMarkdown from 'react-markdown'; 
+import ReactMarkdown from 'react-markdown';
 
 export const metadata = {
     title: "AI Content Generation Tools",
@@ -32,6 +32,25 @@ export default async function App() {
                     <Link className="grid-button" href="/tools/caption-generator/">
                         <img src="/icons/graphics/abc.png" alt="Caption Gen" />
                         <button>Caption Gen</button>
+                    </Link>
+                </div>
+                <h2 className="tools-title">AI Chemistry Tools</h2>
+                <div className="button-container">
+                    <Link className="grid-button" href="/tools/chemical-reaction-cmopleter/">
+                        <img src="/icons/graphics/atom.png" alt="Text Summarizer" />
+                        <button>Chemical Reaction Completer</button>
+                    </Link>
+                    <Link className="grid-button" href="/tools/paragraph-generator/">
+                        <img src="/icons/graphics/molecule.png" alt="Paragraph Gen" />
+                        <button>Molecule Property Predictor</button>
+                    </Link>
+                    <Link className="grid-button" href="/tools/title-generator/">
+                        <img src="/icons/graphics/glass.png" alt="Title Gen" />
+                        <button>Environmental Impact Analyzer</button>
+                    </Link>
+                    <Link className="grid-button" href="/tools/caption-generator/">
+                        <img src="/icons/graphics/reaction.png" alt="Caption Gen" />
+                        <button>Compound Compatibility Checker</button>
                     </Link>
                 </div>
             </div>

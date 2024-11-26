@@ -3,7 +3,7 @@ console.log(`
 ░█░░░░█░░█░█░█▀▀░█░░░█▀█░▀▀█░░█░░█▀▀░░░░▄▀▄░░█░░▄▀░
 ░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░▀░░▀▀▀░▀░░▀░▀░░▀░░▀▀▀
     
-Welcome to Cinecast 🎬 
+Welcome to Cinecast 🎬  
 Brought to you by Grovix Lab, Cinecast is an AI-powered platform dedicated to transforming the way you interact with text. With advanced Natural Language Processing, Cinecast provides:
     
 🔹 Paragraph Generation  
